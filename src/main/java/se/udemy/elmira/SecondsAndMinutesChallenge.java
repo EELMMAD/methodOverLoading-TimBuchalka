@@ -32,7 +32,6 @@ public class SecondsAndMinutesChallenge {
         if (remainingMinutes < 10) {
             secondsString = "0" + secondsString;
         }
-
         return hoursString + " " + minutesString + " " + secondsString + " ";
     }
 
