@@ -35,18 +35,18 @@ public class MinutesToYearsDaysCalculator {
     * The solution will not be accepted if there are extra spaces
      */
 
-        public static void printYearsAndDays(long minutes) {
-            if (minutes < 0) {
-                System.out.println("Invalid Value");
-            } else {
+    public static void printYearsAndDays(long minutes) {
+        if (minutes < 0) {
+            System.out.println("Invalid Value");
+        } else {
 
-                long yeras = (minutes / 525600);
-                long remaindesMinutes = (minutes % 525600);
-                long days = (remaindesMinutes / 1440);
+            long years = (minutes / 525600);
+            long remainingMinutes = (minutes % 525600);
+            long days = (remainingMinutes / 1440);
 
-                System.out.println(minutes + " min = " + yeras + " y and " + days + " d");
-            }
+            System.out.println(minutes + " min = " + years + " y and " + days + " d");
         }
+    }
 }
 
 
